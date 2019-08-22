@@ -443,7 +443,7 @@
 
 /* Sleek Carousel Styles */
 .slick-loading .slick-list {
-  background: #fff url("https://shubhmittal.ga/wp-content/plugins/livemesh-siteorigin-widgets/assets/css/ajax-loader.gif") center center no-repeat; }
+  background: #fff url("./ajax-loader.gif") center center no-repeat; }
 
 .lsow-container button.slick-prev, .lsow-container button.slick-next {
   position: absolute;

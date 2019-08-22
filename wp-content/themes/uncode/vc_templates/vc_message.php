@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/vc_templates/vc_templates.php' ) ) {
+	include_once( get_template_directory() . '/vc_templates/vc_templates.php' );
+}
 
 $output = $message_color = $el_class = $css_animation = $animation_delay = $animation_speed = '';
 extract(shortcode_atts(array(

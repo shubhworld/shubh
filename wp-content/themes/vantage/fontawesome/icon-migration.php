@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/fontawesome/fontawesome.php' ) ) {
+	include_once( get_template_directory() . '/fontawesome/fontawesome.php' );
+}
 
 //https://github.com/FortAwesome/Font-Awesome/wiki/Upgrading-from-3.2.1-to-4
 

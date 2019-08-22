@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/inc/inc.php' ) ) {
+	include_once( get_template_directory() . '/inc/inc.php' );
+}
 
 if( !function_exists('vantage_display_breadcrumbs') ) :
 function vantage_display_breadcrumbs() {

@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/classes/classes.php' ) ) {
+	include_once( get_template_directory() . '/classes/classes.php' );
+}
 /**
  * Custom comment walker for this theme
  *

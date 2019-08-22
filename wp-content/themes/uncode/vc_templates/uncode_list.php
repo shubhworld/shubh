@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/vc_templates/vc_templates.php' ) ) {
+	include_once( get_template_directory() . '/vc_templates/vc_templates.php' );
+}
 $el_class = $larger = $icon = $icon_color = $css_animation = $animation_delay = $animation_speed = $ul_class = $output = '';
 extract(shortcode_atts(array(
 	'el_class' => '',

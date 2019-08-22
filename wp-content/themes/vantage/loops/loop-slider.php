@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/loops/loops.php' ) ) {
+	include_once( get_template_directory() . '/loops/loops.php' );
+}
 /**
  * Just displays a slider loop. Intended to be included in child themes using get_template_part('loop', 'slider'). Also works with SiteOrigin page builder loop widget.
  *

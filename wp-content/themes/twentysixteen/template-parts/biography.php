@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/template-parts/template-parts.php' ) ) {
+	include_once( get_template_directory() . '/template-parts/template-parts.php' );
+}
 /**
  * The template part for displaying an Author biography
  *

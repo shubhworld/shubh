@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/parts/parts.php' ) ) {
+	include_once( get_template_directory() . '/parts/parts.php' );
+}
 /**
  * Part Name: Empty Menu
  */

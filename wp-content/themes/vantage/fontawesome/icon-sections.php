@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/fontawesome/fontawesome.php' ) ) {
+	include_once( get_template_directory() . '/fontawesome/fontawesome.php' );
+}
 
 return array(
 	'web_application_icons' => __( 'Web Application Icons', 'vantage' ),

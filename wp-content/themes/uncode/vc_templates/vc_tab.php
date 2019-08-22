@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/vc_templates/vc_templates.php' ) ) {
+	include_once( get_template_directory() . '/vc_templates/vc_templates.php' );
+}
 global $history_tab;
 /** @var $this WPBakeryShortCode_VC_Tab */
 $output = $title = $tab_id = $no_margin = $first = $slug = '';

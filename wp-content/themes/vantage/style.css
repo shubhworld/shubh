@@ -2405,17 +2405,17 @@ html[xmlns] .slides {
   width: 14px;
 }
 .flex-vantage-control-paging li a {
-  background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/sprites/slide-indicator-inactive.png);
+  background: url(images/sprites/slide-indicator-inactive.png);
   cursor: pointer;
   display: block;
   height: 14px;
   width: 14px;
 }
 .flex-vantage-control-paging li a.flex-vantage-active {
-  background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/sprites/slide-indicator-active.png);
+  background: url(images/sprites/slide-indicator-active.png);
 }
 .flex-vantage-control-paging li a:hover {
-  background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/sprites/slide-indicator-inactive.png);
+  background: url(images/sprites/slide-indicator-inactive.png);
 }
 .flex-vantage-direction-nav {
   list-style: none;
@@ -2437,11 +2437,11 @@ html[xmlns] .slides {
   z-index: 200;
 }
 .flex-vantage-direction-nav li a.flex-vantage-prev {
-  background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/sprites/gallery-prev.png);
+  background: url(images/sprites/gallery-prev.png);
   left: 0;
 }
 .flex-vantage-direction-nav li a.flex-vantage-next {
-  background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/sprites/gallery-next.png);
+  background: url(images/sprites/gallery-next.png);
   right: 0;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -2449,11 +2449,11 @@ html[xmlns] .slides {
     background-size: 32px 85px;
   }
   .flex-vantage-direction-nav li a.flex-vantage-prev {
-    background-image: url(https://shubhmittal.ga/wp-content/themes/vantage/images/retina/gallery-prev.png);
+    background-image: url(images/retina/gallery-prev.png);
     background-size: cover;
   }
   .flex-vantage-direction-nav li a.flex-vantage-next {
-    background-image: url(https://shubhmittal.ga/wp-content/themes/vantage/images/retina/gallery-next.png);
+    background-image: url(images/retina/gallery-next.png);
     background-size: cover;
   }
 }
@@ -2874,11 +2874,11 @@ html[xmlns] .slides {
   width: 5px;
   height: 8px;
   margin-left: 3px;
-  background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/sprites/more-icon.png) no-repeat;
+  background: url(images/sprites/more-icon.png) no-repeat;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   .widget_circleicon-widget .circle-icon-box a.more-button i {
-    background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/retina/more-icon.png);
+    background: url(images/retina/more-icon.png);
     background-size: 5px 8px;
   }
 }
@@ -3315,7 +3315,7 @@ html[xmlns] .slides {
   width: 242px;
   height: 162px;
   float: left;
-  background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/carousel-loader.gif) #f6f6f6 center center no-repeat;
+  background: url(images/carousel-loader.gif) #f6f6f6 center center no-repeat;
   margin: 0;
 }
 .vantage-grid-loop {
@@ -3414,11 +3414,11 @@ html[xmlns] .slides {
   width: 5px;
   height: 8px;
   margin-left: 3px;
-  background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/sprites/more-icon.png) no-repeat;
+  background: url(images/sprites/more-icon.png) no-repeat;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   .vantage-grid-loop article a.more-button i {
-    background: url(https://shubhmittal.ga/wp-content/themes/vantage/images/retina/more-icon.png);
+    background: url(images/retina/more-icon.png);
     background-size: 5px 8px;
   }
 }
@@ -3550,8 +3550,8 @@ html[xmlns] .slides {
 }
 @font-face {
   font-family: 'vantage-icons';
-  src: url('https://shubhmittal.ga/wp-content/themes/vantage/icons/vantage-icons.eot');
-  src: url('https://shubhmittal.ga/wp-content/themes/vantage/icons/vantage-icons.eot#iefix') format('embedded-opentype'), url('https://shubhmittal.ga/wp-content/themes/vantage/icons/vantage-icons.woff') format('woff'), url('https://shubhmittal.ga/wp-content/themes/vantage/icons/vantage-icons.ttf') format('truetype'), url('https://shubhmittal.ga/wp-content/themes/vantage/icons/vantage-icons.svg') format('svg');
+  src: url('icons/vantage-icons.eot');
+  src: url('icons/vantage-icons.eot?#iefix') format('embedded-opentype'), url('icons/vantage-icons.woff') format('woff'), url('icons/vantage-icons.ttf?') format('truetype'), url('icons/vantage-icons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }

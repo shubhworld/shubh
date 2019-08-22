@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/vc_templates/vc_templates.php' ) ) {
+	include_once( get_template_directory() . '/vc_templates/vc_templates.php' );
+}
 $user_id = '';
 $avatar = $custom_avatar = $avatar_position = $avatar_style = $avatar_size = $avatar_border = $avatar_style = $avatar_back_color = '';
 $author_name_linked = $heading_semantic = $text_size = $text_height = $text_height = $text_space = $text_font = $text_weight = $text_transform = $text_italic = $text_color = $separator = $separator_double = $author_bio = $sub_lead = $sub_reduced = $social = '';

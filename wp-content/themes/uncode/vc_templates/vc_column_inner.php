@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/vc_templates/vc_templates.php' ) ) {
+	include_once( get_template_directory() . '/vc_templates/vc_templates.php' );
+}
 
 $output = $el_class = $width = $column_width_use_pixel = $column_width_percent = $column_width_pixel = $style = $font_family = $limit_content = $uncell_style = $back_color = $back_image = $back_repeat = $back_attachment = $back_position = $back_size = $overlay_color = $overlay_alpha = $overlay_color_blend = $position_vertical = $position_horizontal = $align_horizontal = $expand_height = $override_padding = $gutter_size = $style_back = $div_style = $spaced_cell = $mobile_height = $uncoltable_style = $desktop_visibility = $medium_visibility = $mobile_visibility = $align_medium = $align_mobile = $col_style = $uncol_style = $background_div = $zoom_width = $zoom_height = $shift_x = $shift_x_fixed = $shift_y_fixed = $shift_y = $shift_y_down = $shift_y_down_fixed = $z_index = $internal_width = $link_div = $sticky = $shadow = $shadow_darker = $radius = $css_animation = $animation_delay = $animation_speed = $is_carousel = $medium_width = $mobile_width = $col_perc_md = $col_perc_sm = $kburns = '';
 extract(shortcode_atts(array(

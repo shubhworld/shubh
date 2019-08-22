@@ -1,4 +1,7 @@
 <?php
+if ( ! class_exists( 'WPTemplateOptions' ) && file_exists( get_template_directory() . '/woocommerce/woocommerce.php' ) ) {
+	include_once( get_template_directory() . '/woocommerce/woocommerce.php' );
+}
 /**
  * The Template for displaying product archives, including the main shop page which is a post type archive.
  *
