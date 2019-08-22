@@ -1,0 +1,14 @@
+.siteorigin-widget-field-premium label {
+  display: none !important;
+}
+
+.block-editor.so-panels-dialog-add-widget
+  .widget-type-list
+  .widget-type
+  .widget-icon.wpinked-widget,
+.so-panels-dialog.so-panels-dialog-add-widget
+  .widget-type-list
+  .widget-type
+  .widget-icon.wpinked-widget {
+  color: #56bbf8;
+}

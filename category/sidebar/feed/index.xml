@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sidebar &#8211; Vantage</title>
+	<atom:link href="https://shubhmittal.ga/category/sidebar/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shubhmittal.ga</link>
+	<description>A SiteOrigin Site Pack</description>
+	<lastBuildDate>Sun, 25 Jun 2017 09:48:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Inspired Working Spaces</title>
+		<link>https://shubhmittal.ga/2017/06/25/inspired-working-spaces/</link>
+				<comments>https://shubhmittal.ga/2017/06/25/inspired-working-spaces/#comments</comments>
+				<pubDate>Sun, 25 Jun 2017 06:16:26 +0000</pubDate>
+		<dc:creator><![CDATA[shubh]]></dc:creator>
+				<category><![CDATA[Sidebar]]></category>
+
+		<guid isPermaLink="false">http://vantage.packs.siteorigin.com/?p=1</guid>
+				<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis [&#8230;]]]></description>
+								<content:encoded><![CDATA[<div id="pl-1"  class="panel-layout" ><div id="pg-1-0"  class="panel-grid panel-no-style" ><div id="pgc-1-0-0"  class="panel-grid-cell" ><div id="panel-1-0-0-0" class="so-panel widget widget_sow-image panel-first-child" data-index="0" ><div class="so-widget-sow-image so-widget-sow-image-default-d6014b76747a">
+
+<div class="sow-image-container">
+	<img src="https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809.jpg" width="1920" height="1714" srcset="https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809.jpg 1920w, https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809-300x268.jpg 300w, https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809-768x686.jpg 768w, https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809-1024x914.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" alt="" 		class="so-widget-image"/>
+</div>
+
+</div></div><div id="panel-1-0-0-1" class="so-panel widget widget_sow-editor panel-last-child" data-index="1" ><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus.</p>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<ul>
+<li>Sed eu scelerisque dui.</li>
+<li>Sed eu scelerisque dui.</li>
+<li>Sed eu scelerisque dui.</li>
+</ul>
+<p> </p>
+</div>
+</div></div></div></div></div>]]></content:encoded>
+							<wfw:commentRss>https://shubhmittal.ga/2017/06/25/inspired-working-spaces/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

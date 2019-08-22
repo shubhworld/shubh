@@ -30,6 +30,10 @@ Upload the Akismet plugin to your blog, Activate it, then enter your [Akismet.co
 
 == Changelog ==
 
+= 4.1.3 =
+
+* Prevented an attacker from being able to cause a user to unknowingly recheck their Pending comments for spam.
+
 = 4.1.2 =
 *Release Date - 14 May 2019*
 

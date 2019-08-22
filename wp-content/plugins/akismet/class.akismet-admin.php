@@ -396,8 +396,10 @@ class Akismet_Admin {
 				href="' . esc_url( $link ) . '"
 				data-active-label="' . esc_attr( __( 'Checking for Spam', 'akismet' ) ) . '"
 				data-progress-label-format="' . esc_attr( __( '(%1$s%)', 'akismet' ) ) . '"
-				data-success-url="' . esc_attr( remove_query_arg( 'akismet_recheck', add_query_arg( array( 'akismet_recheck_complete' => 1, 'recheck_count' => urlencode( '__recheck_count__' ), 'spam_count' => urlencode( '__spam_count__' ) ) ) ) ) . '"
+				data-success-url="' . esc_attr( remove_query_arg( array( 'akismet_recheck', 'akismet_recheck_error' ), add_query_arg( array( 'akismet_recheck_complete' => 1, 'recheck_count' => urlencode( '__recheck_count__' ), 'spam_count' => urlencode( '__spam_count__' ) ) ) ) ) . '"
+				data-failure-url="' . esc_attr( remove_query_arg( array( 'akismet_recheck', 'akismet_recheck_complete' ), add_query_arg( array( 'akismet_recheck_error' => 1 ) ) ) ) . '"
 				data-pending-comment-count="' . esc_attr( $comments_count->moderated ) . '"
+				data-nonce="' . esc_attr( wp_create_nonce( 'akismet_check_for_spam' ) ) . '"
 				>';
 			echo '<span class="akismet-label">' . esc_html__('Check for Spam', 'akismet') . '</span>';
 			echo '<span class="checkforspam-progress"></span>';
@@ -412,6 +414,13 @@ class Akismet_Admin {
 		Akismet::fix_scheduled_recheck();
 
 		if ( ! ( isset( $_GET['recheckqueue'] ) || ( isset( $_REQUEST['action'] ) && 'akismet_recheck_queue' == $_REQUEST['action'] ) ) ) {
+			return;
+		}
+		
+		if ( ! wp_verify_nonce( $_POST['nonce'], 'akismet_check_for_spam' ) ) {
+			wp_send_json( array(
+				'error' => __( "You don't have permission to do that."),
+			));
 			return;
 		}
 
@@ -1060,6 +1069,9 @@ class Akismet_Admin {
 			}
 			
 			echo '<div class="notice notice-success"><p>' . esc_html( $message ) . '</p></div>';
+		}
+		else if ( isset( $_GET['akismet_recheck_error'] ) ) {
+			echo '<div class="notice notice-error"><p>' . esc_html( __( 'Akismet could not recheck your comments for spam.', 'akismet' ) ) . '</p></div>';
 		}
 
 		$akismet_comment_form_privacy_notice_option = get_option( 'akismet_comment_form_privacy_notice' );

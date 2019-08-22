@@ -1,3 +1,4 @@
+30c9
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -8,11 +9,11 @@
 	>
 
 <channel>
-	<title>Shubh Mittal</title>
+	<title>Vantage</title>
 	<atom:link href="https://shubhmittal.ga/feed/" rel="self" type="application/rss+xml" />
 	<link>https://shubhmittal.ga</link>
-	<description>Just another WordPress site</description>
-	<lastBuildDate>Thu, 22 Aug 2019 03:17:59 +0000</lastBuildDate>
+	<description>A SiteOrigin Site Pack</description>
+	<lastBuildDate>Sun, 10 Sep 2017 18:42:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,20 +21,156 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.2.2</generator>
 	<item>
-		<title>Hello world!</title>
-		<link>https://shubhmittal.ga/2019/08/22/hello-world/</link>
-				<comments>https://shubhmittal.ga/2019/08/22/hello-world/#comments</comments>
-				<pubDate>Thu, 22 Aug 2019 03:17:59 +0000</pubDate>
+		<title>Beautifully Framed</title>
+		<link>https://shubhmittal.ga/2017/06/25/beautifully-framed/</link>
+				<comments>https://shubhmittal.ga/2017/06/25/beautifully-framed/#respond</comments>
+				<pubDate>Sun, 25 Jun 2017 09:41:19 +0000</pubDate>
 		<dc:creator><![CDATA[shubh]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[No Sidebar]]></category>
 
-		<guid isPermaLink="false">https://shubhmittal.ga/?p=1</guid>
-				<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
-								<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+		<guid isPermaLink="false">http://vantage.packs.siteorigin.com/?p=52</guid>
+				<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis [&#8230;]]]></description>
+								<content:encoded><![CDATA[<div id="pl-52"  class="panel-layout" ><div id="pg-52-0"  class="panel-grid panel-no-style" ><div id="pgc-52-0-0"  class="panel-grid-cell" ><div id="panel-52-0-0-0" class="so-panel widget widget_sow-image panel-first-child" data-index="0" ><div class="so-widget-sow-image so-widget-sow-image-default-d6014b76747a">
+
+<div class="sow-image-container">
+	<img src="https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211779.jpg" width="1920" height="1307" srcset="https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211779.jpg 1920w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211779-300x204.jpg 300w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211779-768x523.jpg 768w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211779-1024x697.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" alt="" 		class="so-widget-image"/>
+</div>
+
+</div></div><div id="panel-52-0-0-1" class="so-panel widget widget_sow-editor panel-last-child" data-index="1" ><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus.</p>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+<p> </p>
+<blockquote>
+<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur</p>
+</blockquote>
+<p> </p>
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<ul>
+<li>Sed eu scelerisque dui.</li>
+<li>Sed eu scelerisque dui.</li>
+<li>Sed eu scelerisque dui.</li>
+</ul>
+</div>
+</div></div></div></div><div id="pg-52-1"  class="panel-grid panel-no-style" ><div id="pgc-52-1-0"  class="panel-grid-cell" ><div id="panel-52-1-0-0" class="so-panel widget widget_sow-image panel-first-child panel-last-child" data-index="2" ><div class="so-widget-sow-image so-widget-sow-image-default-d6014b76747a">
+
+<div class="sow-image-container">
+	<img src="https://shubhmittal.ga/wp-content/uploads/2017/06/atilla-taskiran-123813.jpg" width="1920" height="2880" srcset="https://shubhmittal.ga/wp-content/uploads/2017/06/atilla-taskiran-123813.jpg 1920w, https://shubhmittal.ga/wp-content/uploads/2017/06/atilla-taskiran-123813-200x300.jpg 200w, https://shubhmittal.ga/wp-content/uploads/2017/06/atilla-taskiran-123813-768x1152.jpg 768w, https://shubhmittal.ga/wp-content/uploads/2017/06/atilla-taskiran-123813-683x1024.jpg 683w" sizes="(max-width: 1920px) 100vw, 1920px" alt="" 		class="so-widget-image"/>
+</div>
+
+</div></div></div><div id="pgc-52-1-1"  class="panel-grid-cell" ><div id="panel-52-1-1-0" class="so-panel widget widget_sow-image panel-first-child panel-last-child" data-index="3" ><div class="so-widget-sow-image so-widget-sow-image-default-d6014b76747a">
+
+<div class="sow-image-container">
+	<img src="https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-105894.jpg" width="1920" height="2879" srcset="https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-105894.jpg 1920w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-105894-200x300.jpg 200w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-105894-768x1152.jpg 768w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-105894-683x1024.jpg 683w" sizes="(max-width: 1920px) 100vw, 1920px" alt="" 		class="so-widget-image"/>
+</div>
+
+</div></div></div><div id="pgc-52-1-2"  class="panel-grid-cell" ><div id="panel-52-1-2-0" class="so-panel widget widget_sow-image panel-first-child panel-last-child" data-index="4" ><div class="so-widget-sow-image so-widget-sow-image-default-d6014b76747a">
+
+<div class="sow-image-container">
+	<img src="https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211778.jpg" width="1920" height="2881" srcset="https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211778.jpg 1920w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211778-200x300.jpg 200w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211778-768x1152.jpg 768w, https://shubhmittal.ga/wp-content/uploads/2017/06/sarah-dorweiler-211778-682x1024.jpg 682w" sizes="(max-width: 1920px) 100vw, 1920px" alt="" 		class="so-widget-image"/>
+</div>
+
+</div></div></div></div></div>]]></content:encoded>
+							<wfw:commentRss>https://shubhmittal.ga/2017/06/25/beautifully-framed/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Modern Design</title>
+		<link>https://shubhmittal.ga/2017/06/25/modern-design/</link>
+				<comments>https://shubhmittal.ga/2017/06/25/modern-design/#respond</comments>
+				<pubDate>Sun, 25 Jun 2017 08:46:02 +0000</pubDate>
+		<dc:creator><![CDATA[shubh]]></dc:creator>
+				<category><![CDATA[Hero Widget]]></category>
+
+		<guid isPermaLink="false">http://vantage.packs.siteorigin.com/?p=40</guid>
+				<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis [&#8230;]]]></description>
+								<content:encoded><![CDATA[<div id="pl-40"  class="panel-layout" ><div id="pg-40-0"  class="panel-grid panel-no-style" ><div id="pgc-40-0-0"  class="panel-grid-cell" ><div id="panel-40-0-0-0" class="so-panel widget widget_sow-hero panel-first-child panel-last-child" data-index="0" ><div class="so-widget-sow-hero so-widget-sow-hero-default-438b1d597894 so-widget-fittext-wrapper" data-fit-text-compressor="0.85"><div class="sow-slider-base " style="display: none"><ul class="sow-slider-images" data-settings="{&quot;pagination&quot;:true,&quot;speed&quot;:800,&quot;timeout&quot;:8000,&quot;swipe&quot;:true,&quot;nav_always_show_mobile&quot;:&quot;&quot;,&quot;breakpoint&quot;:&quot;780px&quot;}">		<li class="sow-slider-image  sow-slider-image-cover" style="background-color: #333333" >
+					<div class="sow-slider-image-container">
+			<div class="sow-slider-image-wrapper">
+				<h1 style="text-align: center"><strong>Modern Design</strong></h1><p style="text-align: center">Enter in to a world of moderns designs</p>			</div>
+		</div>
+		<div class="sow-slider-image-overlay sow-slider-image-cover" style="background-image: url(https://shubhmittal.ga/wp-content/uploads/2017/06/breather-187923.jpg);opacity: 0.61"  ></div>		</li>
+		</ul>				<ol class="sow-slider-pagination">
+											<li><a href="#" data-goto="0" aria-label="display slide 1">1</a></li>
+									</ol>
+
+				<div class="sow-slide-nav sow-slide-nav-next">
+					<a href="#" data-goto="next" aria-label="next slide" data-action="next">
+						<em class="sow-sld-icon-thin-right"></em>
+					</a>
+				</div>
+
+				<div class="sow-slide-nav sow-slide-nav-prev">
+					<a href="#" data-goto="previous" aria-label="previous slide" data-action="prev">
+						<em class="sow-sld-icon-thin-left"></em>
+					</a>
+				</div>
+				</div></div></div></div></div><div id="pg-40-1"  class="panel-grid panel-no-style" ><div id="pgc-40-1-0"  class="panel-grid-cell" ><div id="panel-40-1-0-0" class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="1" ><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus.</p>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h6> </h6>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+<p> </p>
+<blockquote>
+<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur</p>
+</blockquote>
+<p> </p>
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<ul>
+<li>Sed eu scelerisque dui.</li>
+<li>Sed eu scelerisque dui.</li>
+<li>Sed eu scelerisque dui.</li>
+</ul>
+<p> </p>
+</div>
+</div></div></div></div></div>
+1084
 ]]></content:encoded>
-							<wfw:commentRss>https://shubhmittal.ga/2019/08/22/hello-world/feed/</wfw:commentRss>
+							<wfw:commentRss>https://shubhmittal.ga/2017/06/25/modern-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Inspired Working Spaces</title>
+		<link>https://shubhmittal.ga/2017/06/25/inspired-working-spaces/</link>
+				<comments>https://shubhmittal.ga/2017/06/25/inspired-working-spaces/#comments</comments>
+				<pubDate>Sun, 25 Jun 2017 06:16:26 +0000</pubDate>
+		<dc:creator><![CDATA[shubh]]></dc:creator>
+				<category><![CDATA[Sidebar]]></category>
+
+		<guid isPermaLink="false">http://vantage.packs.siteorigin.com/?p=1</guid>
+				<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis [&#8230;]]]></description>
+								<content:encoded><![CDATA[<div id="pl-1"  class="panel-layout" ><div id="pg-1-0"  class="panel-grid panel-no-style" ><div id="pgc-1-0-0"  class="panel-grid-cell" ><div id="panel-1-0-0-0" class="so-panel widget widget_sow-image panel-first-child" data-index="0" ><div class="so-widget-sow-image so-widget-sow-image-default-d6014b76747a">
+
+<div class="sow-image-container">
+	<img src="https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809.jpg" width="1920" height="1714" srcset="https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809.jpg 1920w, https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809-300x268.jpg 300w, https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809-768x686.jpg 768w, https://shubhmittal.ga/wp-content/uploads/2017/06/davide-cantelli-240809-1024x914.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" alt="" 		class="so-widget-image"/>
+</div>
+
+</div></div><div id="panel-1-0-0-1" class="so-panel widget widget_sow-editor panel-last-child" data-index="1" ><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus.</p>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<ul>
+<li>Sed eu scelerisque dui.</li>
+<li>Sed eu scelerisque dui.</li>
+<li>Sed eu scelerisque dui.</li>
+</ul>
+<p> </p>
+</div>
+</div></div></div></div></div>]]></content:encoded>
+							<wfw:commentRss>https://shubhmittal.ga/2017/06/25/inspired-working-spaces/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 							</item>
 	</channel>
 </rss>
+
+0
+

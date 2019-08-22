@@ -1,0 +1,1 @@
+<?php _e( 'This is not a theme. Please reinstall the SiteOrigin Importer as a plugin.', 'siteorigin-importer' ); ?>

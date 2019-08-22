@@ -1,0 +1,246 @@
+#siteorigin-importer {
+
+	.importer-modal {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #f6f6f6;
+		z-index: 99999;
+		padding: 50px 0;
+
+		.container{
+			max-width: 860px;
+			margin: 0 auto;
+		}
+
+		.importer-header {
+			text-align: center;
+
+			h2 {
+				.siteorigin-logo {
+					display: inline-block;
+					width: 60px;
+					height: auto;
+					float: left;
+					margin: -10px 10px 0 0;
+				}
+
+				font-size: 30px;
+				font-weight:300;
+				margin: 0 auto;
+				color: #444;
+				display: inline-block;
+			}
+		}
+
+		.frames {
+			margin-top: 50px;
+			padding: 40px;
+			border: 1px solid #d0d0d0;
+			background-color: #fff;
+			box-shadow: 0 1px 1px rgba( 0,0,0,0.075 );
+
+			.frame {
+				display: none;
+			}
+		}
+
+		.site-information {
+			padding: 40px;
+			margin: -40px -40px 40px -40px;
+			display: block;
+			border-bottom: 1px solid #e0e0e0;
+			background-color: #fafafa;
+			margin-bottom: 40px;
+
+			img {
+				display: block;
+				width: 260px;
+				height: 195px;
+				float: left;
+				border: 1px solid rgba( 0,0,0,0.15 );
+			}
+
+			.site-information-text {
+				margin-left: 290px;
+			}
+
+			&:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+		}
+
+		.import-note {
+			text-align: center;
+
+			p{
+				font-size: 15px;
+				margin-bottom: 25px;
+
+				&:first-child {
+					margin-top: 0;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+
+			input {
+				font-size: 18px;
+			}
+
+			.video-sub-text {
+				max-width: 640px;
+				margin: 10px auto 0 auto;
+			}
+		}
+
+		.accept-box {
+			margin-top: 30px;
+			text-align: center;
+
+			.field-wrappers {
+				margin-bottom: 8px;
+			}
+
+			input[type="text"] {
+				font-size: 16px;
+				width: 300px;
+				margin-bottom: 10px;
+			}
+
+			a,button{
+				font-size: 1.125em;
+				padding: 5px 18px;
+				height:auto;
+			}
+
+			small {
+				display: block;
+				color: #777;
+				text-align: center;
+				margin-top: 10px;
+			}
+		}
+
+		.progress-bar-wrapper {
+			padding: 40px;
+			margin: -40px -40px 40px -40px;
+			border-bottom: 1px solid #e0e0e0;
+			background-color: #fcfcfc;
+		}
+
+		.progress-bar {
+			position: relative;
+			height:5px;
+			background-color: #b0d0ef;
+
+			.progress-bar-progress {
+				position: absolute;
+				top:0;
+				left:0;
+				height:5px;
+				background-color: #3288ea;
+				width:0;
+			}
+		}
+
+		.progress-message,
+		.complete-message {
+			font-size: 0.95em;
+			font-weight: bold;
+			margin-top: 25px;
+			text-align: center;
+			color: #555;
+			max-width: 100%;
+			word-break: break-all;
+			margin-bottom:0;
+
+			p {
+				margin-bottom: 8px;
+			}
+		}
+
+		.complete-message {
+			display: none;
+		}
+	}
+
+	.filter-results {
+		padding: 8px;
+		width: 260px;
+		margin-bottom: 15px;
+	}
+
+	.importer-packs {
+		overflow: auto;
+		margin: 0 -15px;
+
+		.importer-pack {
+			overflow: auto;
+			padding: 15px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+
+			float: left;
+			width: 20%;
+
+			.importer-pack-inside {
+				border: 1px solid #d0d0d0;
+				background-color: #f3f3f3;
+				padding: 15px;
+			}
+
+			h3 {
+				font-weight: 500;
+				font-size: 1.2em;
+				margin: 16px 0 0 0;
+			}
+			
+			a {
+				padding: 6px 8px;
+				float: right;
+				margin: 0 0 10px 0;
+				text-decoration: none;
+				color: #fff;
+				background-color: #777;
+				line-height: 1em;
+				
+				&:hover {
+					background-color: #444;
+				}
+			}
+
+			.importer-pack-screenshot {
+				border: 1px solid #d0d0d0;
+				margin-bottom: 15px;
+
+				img {
+					display: block;
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+
+	#setting-error-tgmpa {
+		display: none !important;
+	}
+
+}
+
+.wistia_popover_embed,
+.wistia_placebo_close_button{
+	z-index: 99999 + 10 !important;
+}
+
+.wistia_popover_overlay {
+	z-index: 99999 + 9 !important;
+}

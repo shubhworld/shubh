@@ -1,0 +1,167 @@
+#siteorigin-importer .importer-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f6f6f6;
+  z-index: 99999;
+  padding: 50px 0; }
+  #siteorigin-importer .importer-modal .container {
+    max-width: 860px;
+    margin: 0 auto; }
+  #siteorigin-importer .importer-modal .importer-header {
+    text-align: center; }
+    #siteorigin-importer .importer-modal .importer-header h2 {
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0 auto;
+      color: #444;
+      display: inline-block; }
+      #siteorigin-importer .importer-modal .importer-header h2 .siteorigin-logo {
+        display: inline-block;
+        width: 60px;
+        height: auto;
+        float: left;
+        margin: -10px 10px 0 0; }
+  #siteorigin-importer .importer-modal .frames {
+    margin-top: 50px;
+    padding: 40px;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075); }
+    #siteorigin-importer .importer-modal .frames .frame {
+      display: none; }
+  #siteorigin-importer .importer-modal .site-information {
+    padding: 40px;
+    margin: -40px -40px 40px -40px;
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    margin-bottom: 40px; }
+    #siteorigin-importer .importer-modal .site-information img {
+      display: block;
+      width: 260px;
+      height: 195px;
+      float: left;
+      border: 1px solid rgba(0, 0, 0, 0.15); }
+    #siteorigin-importer .importer-modal .site-information .site-information-text {
+      margin-left: 290px; }
+    #siteorigin-importer .importer-modal .site-information:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #siteorigin-importer .importer-modal .import-note {
+    text-align: center; }
+    #siteorigin-importer .importer-modal .import-note p {
+      font-size: 15px;
+      margin-bottom: 25px; }
+      #siteorigin-importer .importer-modal .import-note p:first-child {
+        margin-top: 0; }
+      #siteorigin-importer .importer-modal .import-note p:last-child {
+        margin-bottom: 0; }
+    #siteorigin-importer .importer-modal .import-note input {
+      font-size: 18px; }
+    #siteorigin-importer .importer-modal .import-note .video-sub-text {
+      max-width: 640px;
+      margin: 10px auto 0 auto; }
+  #siteorigin-importer .importer-modal .accept-box {
+    margin-top: 30px;
+    text-align: center; }
+    #siteorigin-importer .importer-modal .accept-box .field-wrappers {
+      margin-bottom: 8px; }
+    #siteorigin-importer .importer-modal .accept-box input[type="text"] {
+      font-size: 16px;
+      width: 300px;
+      margin-bottom: 10px; }
+    #siteorigin-importer .importer-modal .accept-box a, #siteorigin-importer .importer-modal .accept-box button {
+      font-size: 1.125em;
+      padding: 5px 18px;
+      height: auto; }
+    #siteorigin-importer .importer-modal .accept-box small {
+      display: block;
+      color: #777;
+      text-align: center;
+      margin-top: 10px; }
+  #siteorigin-importer .importer-modal .progress-bar-wrapper {
+    padding: 40px;
+    margin: -40px -40px 40px -40px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fcfcfc; }
+  #siteorigin-importer .importer-modal .progress-bar {
+    position: relative;
+    height: 5px;
+    background-color: #b0d0ef; }
+    #siteorigin-importer .importer-modal .progress-bar .progress-bar-progress {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 5px;
+      background-color: #3288ea;
+      width: 0; }
+  #siteorigin-importer .importer-modal .progress-message,
+  #siteorigin-importer .importer-modal .complete-message {
+    font-size: 0.95em;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+    color: #555;
+    max-width: 100%;
+    word-break: break-all;
+    margin-bottom: 0; }
+    #siteorigin-importer .importer-modal .progress-message p,
+    #siteorigin-importer .importer-modal .complete-message p {
+      margin-bottom: 8px; }
+  #siteorigin-importer .importer-modal .complete-message {
+    display: none; }
+#siteorigin-importer .filter-results {
+  padding: 8px;
+  width: 260px;
+  margin-bottom: 15px; }
+#siteorigin-importer .importer-packs {
+  overflow: auto;
+  margin: 0 -15px; }
+  #siteorigin-importer .importer-packs .importer-pack {
+    overflow: auto;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 20%; }
+    #siteorigin-importer .importer-packs .importer-pack .importer-pack-inside {
+      border: 1px solid #d0d0d0;
+      background-color: #f3f3f3;
+      padding: 15px; }
+    #siteorigin-importer .importer-packs .importer-pack h3 {
+      font-weight: 500;
+      font-size: 1.2em;
+      margin: 16px 0 0 0; }
+    #siteorigin-importer .importer-packs .importer-pack a {
+      padding: 6px 8px;
+      float: right;
+      margin: 0 0 10px 0;
+      text-decoration: none;
+      color: #fff;
+      background-color: #777;
+      line-height: 1em; }
+      #siteorigin-importer .importer-packs .importer-pack a:hover {
+        background-color: #444; }
+    #siteorigin-importer .importer-packs .importer-pack .importer-pack-screenshot {
+      border: 1px solid #d0d0d0;
+      margin-bottom: 15px; }
+      #siteorigin-importer .importer-packs .importer-pack .importer-pack-screenshot img {
+        display: block;
+        width: 100%;
+        height: auto; }
+#siteorigin-importer #setting-error-tgmpa {
+  display: none !important; }
+
+.wistia_popover_embed,
+.wistia_placebo_close_button {
+  z-index: 100009 !important; }
+
+.wistia_popover_overlay {
+  z-index: 100008 !important; }
+
+/*# sourceMappingURL=importer.css.map */

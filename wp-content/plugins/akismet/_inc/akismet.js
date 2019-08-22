@@ -169,6 +169,8 @@ jQuery( function ( $ ) {
 	function akismet_check_for_spam(offset, limit) {
 		var check_for_spam_buttons = $( '.checkforspam' );
 		
+		var nonce = check_for_spam_buttons.data( 'nonce' );
+		
 		// We show the percentage complete down to one decimal point so even queues with 100k
 		// pending comments will show some progress pretty quickly.
 		var percentage_complete = Math.round( ( recheck_count / check_for_spam_buttons.data( 'pending-comment-count' ) ) * 1000 ) / 10;
@@ -181,9 +183,16 @@ jQuery( function ( $ ) {
 			{
 				'action': 'akismet_recheck_queue',
 				'offset': offset,
-				'limit': limit
+				'limit': limit,
+				'nonce': nonce
 			},
 			function(result) {
+				if ( 'error' in result ) {
+					// An error is only returned in the case of a missing nonce, so we don't need the actual error message.
+					window.location.href = check_for_spam_buttons.data( 'failure-url' );
+					return;
+				}
+				
 				recheck_count += result.counts.processed;
 				spam_count += result.counts.spam;
 				

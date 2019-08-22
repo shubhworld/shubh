@@ -1,0 +1,105 @@
+@import "../mixins/less/mixins";
+.widget-function('import_google_font');
+@background: transparent;
+@padding: 15px;
+@corners: 0px;
+@title-size: '';
+@title-color: '';
+@title-font-fly: default;
+@title-font-wt: '';
+@desc-size: '';
+@desc-color: '';
+@desc-font-fly: default;
+@desc-font-wt: '';
+@label-size: '';
+@label-color: '';
+@label-font-fly: default;
+@label-font-wt: '';
+@f-background: '';
+@gap: 25px;
+@width: 100%;
+@input-border-clr: '';
+@input-border-width: 2px;
+@btn-size: default;
+@btn-theme: classic;
+@btn-font-fly: default;
+@btn-font-wt: '';
+@btn-bg: '';
+@btn-bg-h: '';
+@btn-clr: '';
+@btn-clr-h: '';
+@btn-corners: 0.25em;
+@error-color: '';
+.iw-so-cf7 {
+    background: @background;
+    padding: @padding;
+    border-radius: @corners;
+}
+
+.iw-so-cf7.iw-so-cf7-errors span[role="alert"] {
+    color: @error-color;
+}
+
+.iw-so-cf7 .iw-so-cf7-title {
+    color: @title-color;
+    font-size: @title-size;
+    .font(@title-font-fly, @title-font-wt);
+}
+
+.iw-so-cf7 .iw-so-cf7-description {
+    color: @desc-color;
+    font-size: @desc-size;
+    .font(@desc-font-fly, @desc-font-wt);
+}
+
+.iw-so-cf7 label,
+.iw-so-cf7 .wpcf7-list-item-label,
+.iw-so-cf7 .wpcf7-file {
+    color: @label-color;
+    font-size: @label-size;
+    .font(@label-font-fly, @label-font-wt);
+}
+
+.iw-so-cf7 input,
+.iw-so-cf7 input:focus,
+.iw-so-cf7 textarea {
+    background: @f-background;
+}
+
+.iw-so-cf7 form.wpcf7-form>p {
+    margin-bottom: @gap;
+    width: @width;
+}
+
+.iw-so-cf7.iw-so-cf7-input-border input,
+.iw-so-cf7.iw-so-cf7-input-border textarea {
+    border-color: @input-border-clr;
+    border-width: @input-border-width;
+}
+
+.iw-so-cf7 .wpcf7-validation-errors {
+    width: @width;
+}
+
+.iw-so-cf7.iw-so-cf7-validation .wpcf7-validation-errors {
+    color: @error-color;
+    border-color: @error-color;
+}
+
+.iw-so-cf7.iw-so-cf7-btn-style {
+    .wpcf7-submit {
+        .full-width() when (@btn-size =full) {
+            width: 100%;
+        }
+        .full-width();
+        border-radius: @btn-corners;
+        .font(@btn-font-fly, @btn-font-wt);
+        background: @btn-bg;
+        color: @btn-clr;
+
+        &:hover {
+            background: @btn-bg-h;
+            color: @btn-clr-h;
+        }
+    }
+}

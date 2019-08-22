@@ -1,0 +1,15 @@
+.iw-so-cf7 .wpcf7-range,
+.iw-so-cf7 .wpcf7-file {
+  background: transparent !important; }
+
+.iw-so-cf7 .wpcf7-file {
+  border-color: transparent !important;
+  padding-left: 0 !important; }
+
+.iw-so-cf7.iw-so-cf7-choice-style input[type="checkbox"],
+.iw-so-cf7.iw-so-cf7-choice-style input[type="radio"] {
+  width: 35px;
+  height: 35px; }
+
+.iw-so-cf7 span[role="alert"] {
+  font-size: 15px; }
